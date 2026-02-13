@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedra Papel Tesoura IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Pedra, Papel e Tesoura ✊ ✋ ✌</h1>
+
+  <div class="container">
+
+    <div class="camera-box">
+      <div id="webcam-container"></div>
+    </div>
+
+    <div class="game-box">
+
+      <button id="startBtn">Iniciar Câmera</button>
+      <button id="playBtn">Jogar</button>
+
+      <div class="results">
+        <p>Sua jogada: <span id="userMove">-</span></p>
+        <p>Computador: <span id="computerMove">-</span></p>
+      </div>
+
+      <hr>
+
+      <div class="score">
+        <h3>Placar</h3>
+        <p>Você: <span id="userScore">0</span></p>
+        <p>Computador: <span id="computerScore">0</span></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- TensorFlow -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
