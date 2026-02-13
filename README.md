@@ -75,8 +75,6 @@ npx serve
 
 - Interface mais interativa
 
-- Deploy no GitHub Pages
-
 ---
 ## 📜 Licença
 
